@@ -32,16 +32,16 @@ if (distance <= 10) {
 Serial.print(distance);
 Serial.println(" cm");
 for(int j=0; j<2; j++){
-        for(int i= 40; i<100; i++){
-          servo.write(i);
-          delay(10);
-        }
-        for(int i= 100; i>=40; i--){
-          servo.write(i);
-          delay(10);
-        }
-
+  for(int i= 40; i<100; i++){
+    servo.write(i);
+    delay(10);
+  }
+  for(int i= 100; i>=40; i--){
+    servo.write(i);
+    delay(10);
+  }
 }
+
 }
 
 else {
