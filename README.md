@@ -6,7 +6,7 @@ The following circuit was implemented:
 
   <img src="esquematico_montagem.PNG" width="500" >
 
-</p>
+
 
 In order to avoid the need for a breadboard, I wired both 5V wires together with an output wire to connect to the arduino 5V pin.
 
